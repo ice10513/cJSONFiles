@@ -122,6 +122,7 @@ static const char *parse_number(cJSON *item,const char *num)
 	item->type=cJSON_Number;
 	return num;
 }
+// hello1
 
 /* Render the number nicely from the given item into a string. */
 static char *print_number(cJSON *item)
